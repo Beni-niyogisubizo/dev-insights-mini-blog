@@ -1,0 +1,45 @@
+.post-list-section {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.section-heading {
+  max-width: 700px;
+  margin-bottom: 2.5rem;
+}
+
+.section-heading h1 {
+  margin: 0.4rem 0 0.75rem;
+  color: #0f172a;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.15;
+}
+
+.section-heading > p:last-child {
+  margin: 0;
+  color: #64748b;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.section-label {
+  margin: 0;
+  color: #2563eb;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .post-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,12 +1,12 @@
 import Header from './components/Header'
+import PostList from './components/PostList'
 
 function App() {
   return (
     <>
       <Header />
-
       <main>
-        <h1>Latest Development Insights</h1>
+        <PostList />
       </main>
     </>
   )
