@@ -1,0 +1,28 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 8%;
+  background-color: #172554;
+  color: white;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.new-post-link {
+  padding: 0.65rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #38bdf8;
+  color: #082f49;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.new-post-link:hover {
+  background-color: #7dd3fc;
+}
