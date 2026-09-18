@@ -1,3 +1,5 @@
+/* oxlint-disable react/only-export-components */
+
 import Post from './Post'
 import type { Post as PostType } from '../types/Post'
 import '../styles/PostList.css'
